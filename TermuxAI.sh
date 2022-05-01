@@ -47,14 +47,18 @@ read optnz
 if [ $optnz = "hi" ];
 then
 echo -e "$red Hello Sir, how can i help you today? $rset"
+menu
+bash TermuxAI.sh
 elif [ $optnz = "help" ];
 then
 echo -e "$red Commands list: hi - credits - update - vpn - report - exit $rset"
+menu
+bash TermuxAI.sh
 elif [ $optnz = "credits" ];
 then
 am start -a android.intent.action.VIEW -d https://msha.ke/tommasobona/ > /dev/null 2>&1
 menu
-menu
+bash TermuxAI.sh
 elif [ $optnz = "update" ];
 then
 upd
@@ -62,12 +66,12 @@ elif [ $optnz = "vpn" ];
 then
 am start -a android.intent.action.VIEW -d https://www.whispervpn.company.site/ > /dev/null 2>&1
 menu
-menu
+bash TermuxAI.sh
 elif [ $optnz = "report" ];
 then
 am start -a android.intent.action.VIEW -d https://github.com/ParzivalHack/TermuxAI/issues > /dev/null 2>&1
 menu
-menu
+bash TermuxAI.sh
 elif [ $optnz = "exit" ];
 then
 exit 1
@@ -107,7 +111,7 @@ printf "\e[34m           UPDATED SUCCESSFULLY TO THE LATEST VERSION!\e[0m"
 sleep 2.0
 clear
 cd $HOME
-cd doomshell
+cd TermuxAI
 bash TermuxAI.sh
 }
 vid(){
