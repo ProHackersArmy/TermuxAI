@@ -53,7 +53,7 @@ echo -e "$red Commands list: hi - credits - update - vpn - report - exit $rset"
 sleep 2
 menu
 bash TermuxAI.sh
-elif [ $optnz = "how are you" ];
+elif [ $optnz = "howareyou" ];
 then
 echo -e "$red I'm doing great, thanks for asking Sir :) $rset"
 sleep 2
