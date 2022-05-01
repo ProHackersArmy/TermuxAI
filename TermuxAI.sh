@@ -42,7 +42,7 @@ echo ""
 echo
 echo -e "$red Hello Sir, how can i help you today? $rset"
 echo " "
-echo -ne "\e[34m#Say something to TermuxAI\e[34m: "
+echo -ne "\e[34m#Say something to TermuxAI (type help for the commands list)\e[34m: "
 read optnz
 if [ $optnz = "hi" ];
 then
