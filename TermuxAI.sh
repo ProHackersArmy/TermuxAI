@@ -74,7 +74,7 @@ bash TermuxAI.sh
 elif [ $optnz = "favcolor" ];
 then
 echo -e "$red My favourite color is green but unfortunatly my developer coded me with a stupid light blue color :( $rset"
-sleep 2
+sleep 4
 menu
 bash TermuxAI.sh
 elif [ $optnz = "hello" ];
