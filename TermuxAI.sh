@@ -50,7 +50,7 @@ bash TermuxAI.sh
 elif [ $optnz = "help" ];
 then
 echo -e "$red Commands list(insert sentences without spaces. Example: howareyou): hi - credits - update - vpn - report - exit - howareyou $rset"
-sleep 2
+sleep 10
 menu
 bash TermuxAI.sh
 elif [ $optnz = "howareyou" ];
