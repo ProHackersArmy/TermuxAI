@@ -8,7 +8,6 @@ pink="\e[34m"
 menu(){
 vid
 echo -e "\e[34m     
-..:!JYYYJ?^^?JYYYJ!:
      @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
      @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
      @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -51,6 +50,12 @@ bash TermuxAI.sh
 elif [ $optnz = "help" ];
 then
 echo -e "$red Commands list: hi - credits - update - vpn - report - exit $rset"
+sleep 2
+menu
+bash TermuxAI.sh
+elif [ $optnz = "how are you" ];
+then
+echo -e "$red I'm doing great, thanks for asking Sir :) $rset"
 sleep 2
 menu
 bash TermuxAI.sh
