@@ -47,11 +47,13 @@ read optnz
 if [ $optnz = "hi" ];
 then
 echo -e "$red Hello Sir, how can i help you today? $rset"
+sleep 2
 menu
 bash TermuxAI.sh
 elif [ $optnz = "help" ];
 then
 echo -e "$red Commands list: hi - credits - update - vpn - report - exit $rset"
+sleep 2
 menu
 bash TermuxAI.sh
 elif [ $optnz = "credits" ];
