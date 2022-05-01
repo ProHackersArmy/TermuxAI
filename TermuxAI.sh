@@ -49,13 +49,31 @@ menu
 bash TermuxAI.sh
 elif [ $optnz = "help" ];
 then
-echo -e "$red Commands list(insert sentences without spaces. Example: howareyou): hi - credits - update - vpn - report - exit - howareyou $rset"
-sleep 10
+echo -e "$red Commands list(Insert sentences without spaces. Example: howareyou): hi - credits - update - vpn - report - exit - howareyou - doyouhaveafamily - doyoupoop - favcolor$rset"
+sleep 30
 menu
 bash TermuxAI.sh
 elif [ $optnz = "howareyou" ];
 then
 echo -e "$red I'm doing great, thanks for asking Sir :) $rset"
+sleep 2
+menu
+bash TermuxAI.sh
+elif [ $optnz = "doyouhaveafamily" ];
+then
+echo -e "$red My only family is my creator and developer, ParzivalHack <3 $rset"
+sleep 2
+menu
+bash TermuxAI.sh
+elif [ $optnz = "doyoupoop" ];
+then
+echo -e "$red No Sir, i'm an Artificial Antelligence so i do not poop. $rset"
+sleep 2
+menu
+bash TermuxAI.sh
+elif [ $optnz = "favcolor" ];
+then
+echo -e "$red My favourite color is green but unfortunatly my developer coded me with a stupid light blue color :( $rset"
 sleep 2
 menu
 bash TermuxAI.sh
