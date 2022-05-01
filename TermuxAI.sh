@@ -5,7 +5,7 @@ ylo="\e[34m"
 blue="\e[34m"
 cyan="\e[34m"
 pink="\e[34m"
-banner(){
+menu(){
 vid
 echo -e "\e[34m     
 ..:!JYYYJ?^^?JYYYJ!:.                                        
@@ -53,7 +53,7 @@ echo -e "$red Commands list: hi - credits - update - vpn - report - exit $rset"
 elif [ $optnz = "credits" ];
 then
 am start -a android.intent.action.VIEW -d https://msha.ke/tommasobona/ > /dev/null 2>&1
-banner
+menu
 menu
 elif [ $optnz = "update" ];
 then
@@ -61,12 +61,12 @@ upd
 elif [ $optnz = "vpn" ];
 then
 am start -a android.intent.action.VIEW -d https://www.whispervpn.company.site/ > /dev/null 2>&1
-banner
+menu
 menu
 elif [ $optnz = "report" ];
 then
 am start -a android.intent.action.VIEW -d https://github.com/ParzivalHack/TermuxAI/issues > /dev/null 2>&1
-banner
+menu
 menu
 elif [ $optnz = "exit" ];
 then
@@ -136,13 +136,13 @@ elif [ "$p" = "z" ];
 then
 cd $HOM/TermuxAI
 rm noob.noob
-banner
+menu
 menu
 else
-banner
+menu
 menu
 exit
 fi
 }
-banner
+menu
 menu
