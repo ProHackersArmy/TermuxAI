@@ -56,6 +56,12 @@ echo -e "$red Commands list: hi - credits - update - vpn - report - exit $rset"
 sleep 2
 menu
 bash TermuxAI.sh
+elif [ $optnz = "hello" ];
+then
+echo -e "$red Hello Sir, how can i help you today? $rset"
+sleep 2
+menu
+bash TermuxAI.sh
 elif [ $optnz = "credits" ];
 then
 am start -a android.intent.action.VIEW -d https://msha.ke/tommasobona/ > /dev/null 2>&1
