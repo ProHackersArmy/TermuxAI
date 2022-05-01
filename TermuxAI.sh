@@ -75,7 +75,7 @@ then
 am start -a android.intent.action.VIEW -d https://www.whispervpn.company.site/ > /dev/null 2>&1
 menu
 bash TermuxAI.sh
-elif [ $optnz = "report" ];
+elif [ $optnz = "report issue" ];
 then
 am start -a android.intent.action.VIEW -d https://github.com/ParzivalHack/TermuxAI/issues > /dev/null 2>&1
 menu
