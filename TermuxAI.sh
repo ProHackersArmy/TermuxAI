@@ -129,24 +129,19 @@ if [ "$p" = "y" ];
 then
 am start -a android.intent.action.VIEW -d ERROR000 2>/dev/null
 clear
-baner1
 menu
 elif [ "$p" = "t" ];
 then
 clear
-baner1
 menu
 elif [ "$p" = "z" ];
 then
 cd $HOM/TermuxAI
 rm noob.noob
 menu
-menu
 else
-menu
 menu
 exit
 fi
 }
-menu
 menu
